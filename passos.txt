@@ -1,0 +1,9 @@
+1 - npm init --yes
+2 - npm install -D cypress
+3 - npx cypress open
+
+4 - Executar resolução diferente por linha de comando 
+        npx cypress open --config viewportWidth=376,viewportHeight=876
+
+5 - Executar em segundo plano
+        npx cypress run

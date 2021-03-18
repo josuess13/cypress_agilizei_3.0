@@ -1,0 +1,17 @@
+{
+  "name": "3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile": "npx cypress open --config viewportWidth=376,viewportHeight=876",
+    "cypress:run": "npx cypress run",
+    "cypress:run:dashboard": "npx cypress run --record --key 6d6851d3-e113-4067-9a11-9ba39653336d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.7.1"
+  }
+}
